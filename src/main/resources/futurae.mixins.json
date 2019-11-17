@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.mrbonono63.futurae.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MainMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

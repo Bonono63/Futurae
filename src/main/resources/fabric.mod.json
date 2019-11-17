@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "futurae",
+  "version": "${version}",
+
+  "name": "§bFuturae - Weapons",
+  "description": "§3The future Minecraft to rule them all!",
+  "authors": [
+    "MrBonono63 (curse-twitch)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Bonono63/futurae"
+  },
+
+  "license": "GNUv3",
+  "icon": "assets/futurae/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mrbonono63.futurae.Main"
+    ]
+  },
+  "mixins": [
+    "futurae.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "cotton-resources": ">=1.4.1"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
